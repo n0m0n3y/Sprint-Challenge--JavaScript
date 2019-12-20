@@ -12,9 +12,10 @@ const dinoOne = {
   diet: 'carnivorous',
   weight: '7000kg',
   length:'12m',
-  period: 'Late Cretaceous'
+  period: 'Late Cretaceous',
+  speak: function (){
+  return "RAWERSRARARWERSARARARRRR!";
 }
-
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 const dinoTwo = {
@@ -26,29 +27,29 @@ const dinoTwo = {
 }
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
 const dinoThree = {
-  name: 'tyrannosaurus',
+  name: 'velociraptor',
   diet: 'carnivorous',
-  weight: '7000kg',
-  length:'12m',
+  weight: '15kg',
+  length:'1.8m',
   period: 'Late Cretaceous'
 }
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(dinoOne.weight),
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(dinoThree.diet),
 
 // How long was a stegosaurus?
-console.log();
+console.log(dinoTwo.length),
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(dinoOne.period),
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(dinoOne.speak),
 
 
 // ==== Arrays ====
